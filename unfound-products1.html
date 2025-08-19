@@ -1,0 +1,194 @@
+<html>
+
+<head>
+<title>Unfound Store</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body{
+            background-color:#1A1C19;
+            font-family:tahoma;
+            color:#E0996E;
+          
+        }
+        
+        .topnav {
+        position:relative;
+        overflow: hidden;
+        background-color: #E0996E;
+        width:100%;
+        height:50px;
+        text-align: center;
+        }
+
+        .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 15px 8px;
+        text-decoration: none;
+        font-size:13pt;
+        font-family:tahoma;
+        }
+
+        .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+        }
+        
+        #sa{
+            
+            float: right;
+            padding: 15px 8px;
+        }
+       
+       .prev, .next {
+         cursor: pointer;
+         position: absolute;
+         top: 50%;
+         width: auto;
+         margin-top: -22px;
+         padding: 10px ;
+         background-color:#E0996E;
+         color: white;
+         font-weight: bold;
+         font-size: 18px;
+         border-radius: 0 3px 3px 0;
+       }
+       .next {
+         right: 0;
+         border-radius: 3px 0 0 3px;
+       }
+        .prev:hover, .next:hover {
+          background-color: ;
+        }
+        
+        .dot {
+          cursor: pointer;
+          height: 15px;
+          width: 15px;
+          margin: 0 2px;
+          background-color: #bbb;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.6s ease;
+        }
+
+        .dot:hover {
+          background-color: #E0996E;
+        }
+        
+        #w{
+            font-size:30;
+            color:#E0996E;
+           
+           width:200;
+            height:30;
+            text-align:center;
+            
+        }
+
+        #q{
+           
+           color:white;
+           width:20;
+            height:10;
+            
+        }
+        .y{
+            font-size:12pt;
+            color:white;
+           
+            text-decoration:none;
+            text-align:center;
+            
+        }
+        #y:hover{
+            color:#E0996E;
+        }
+        
+        button {
+          padding: 6px 62px;
+          border: 0.5px solid white;
+          background-color:#E0996E;
+          font-weight:bold;
+          font-size:8pt;
+        }
+        
+        .t{
+            font-size:10pt;
+        }
+
+        .quantity{
+            padding: 6px 4px;
+            border: 0.5px solid white;
+            background-color:white;
+        }
+        
+        .l:hover{
+            background-color:#ddd;
+            cursor:pointer;
+        }
+
+</style>
+</head>
+
+<body>
+   
+   <div class="topnav">
+   <a href="unfound-viewall.html">VIEW ALL</a>
+   <a href="unfound-products1.html">COLLECTION I.XXI</a>
+   <a href="unfound-products2.html">COLLECTION II.XXII</a>
+   <a href="#" id="sa"><img src="shopping-cart-icon-white-11.jpg.png" width="30" height="30"></img></a>
+   <center><img src="a72ed8a5-2f04-4d5c-ade5-496827a7e05e 2 copy 4.JPG" width="100" height="70"></img></center>
+</div>
+    
+    <br>
+    
+    <table id="q" align="center">
+        <p id="w"><a href="#" id="w" style="text-decoration:none">COLLECTION I.XXI</a></p><br><br><br>
+        <tr>
+    <td class="y" style="border:solid 1px white"><img src="p9jXaPGQ copy.jpeg" width="180" height="180"></img>
+        <td><td>
+    <td class="y" style="border:solid 1px white"><img src="2GDqIzgA copy.jpeg" width="180" height="180"></img>
+        <td><td>
+    <td class="y" style="border:solid 1px white"><img src="custom_resized_b3dc1ead-dda5-4765-8069-cf5093029ebd copy.jpeg" width="180" height="180"></img>
+    
+            
+                </tr>
+        
+        <tr>
+            <td class="y">Handgun Hoodie <br><p class="t">190 SAR</p> <input type="number" class="quantity" placeholder="Quantity"><br><br><button class="l">Add</button></td>
+            <td><td>
+            <td class="y">Unapproved Hoodie <br><p class="t">180 SAR</p> <input type="number" class="quantity" placeholder="Quantity"><br><br><button class="l">Add</button></td>
+            <td><td>
+            <td class="y">Broken Hearts Hoodie <br><p class="t">200 SAR</p> <input type="number" class="quantity" placeholder="Quantity"><br><br><button class="l">Add</button></td>
+            </tr>
+     </table>
+    
+    <br><br>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.l').click(function(){
+                alert("Has been added to cart!");
+            });
+        });
+        
+        
+       
+  
+    </script>
+
+    
+
+    
+    
+    <br><br><center><a href="https://instagram.com/unfound.sa"><img src= "insta.png" height="50" width="50"></img></a></center>
+    <center><br>UNFOUND STORE &copy</center>
+   
+        
+</body>
+</html>
